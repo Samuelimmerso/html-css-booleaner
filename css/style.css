@@ -1,4 +1,24 @@
-header{
-    background-image: url("./img/pattern.png");
-    height: 200px;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+header{
+    background-image: url("../img/pattern.png");
+} 
+
+header img#logo{
+   height: 20%;
+   width: 20%;
+}
+
+span{
+    color: darkgrey;
+}
+
+span#writed-by{
+    font-weight: bold;
+    text-decoration: none;
+    font-style: oblique;
+}
+
