@@ -20,12 +20,15 @@ header img#logo{
    background-color: rgba(12, 161, 241, 0.5);
 }
 
-span.darkgray{
+.darkgray{
     color: darkgrey;
 }
 
-span#writed-by{
+.bold{
     font-weight: bold;
+}
+
+span#writed-by{
     text-decoration: none;
     font-style: oblique;
 }
