@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-}
+} 
 
 header{
     background-image: url("../img/pattern.png");
@@ -12,7 +12,15 @@ header img#logo{
    width: 20%;
 }
 
-span{
+.bluebg{
+    background-color: cornflowerblue;
+}
+
+.lowopacity{
+   background-color: rgba(12, 161, 241, 0.5);
+}
+
+span.darkgray{
     color: darkgrey;
 }
 
@@ -21,4 +29,25 @@ span#writed-by{
     text-decoration: none;
     font-style: oblique;
 }
+
+span.highlighted{
+    background-color: gold;
+}
+
+picture p{
+    font-weight: 600;
+}
+
+main{
+    margin: 1rem;
+}
+
+table{
+    text-align: left;
+}
+
+th{
+    width: 30%;
+}
+
 
